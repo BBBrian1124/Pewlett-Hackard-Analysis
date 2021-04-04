@@ -26,11 +26,14 @@ UofT Data Analytics Boot Camp Module 7 - SQL
 * In order to find the eligible employees, we will select the columns we want from employee, department employee and titles table, then join them. We will filter it by their birth date and end date as per the eligibility criteria which will return a list of employees who are eligible for this mentorship program.
 
 [Mentorship Eligible Data] https://github.com/BBBrian1124/Pewlett-Hackard-Analysis/blob/main/Challenge/Data/D2_mentorship_eligibilty.csv
+* List of 'Mentorship Eligible Employees'
 ---
 # Summary
 [Discrepancy Query] https://github.com/BBBrian1124/Pewlett-Hackard-Analysis/blob/main/Challenge/Queries/Individual%20Queries/AQ_Additional%20Queries.sql
 * We can create more SQL queries to count and group the number of employees eligible for the mentorship program by title. We can then join this table/information with the 'retiring titles data' to see the number of employees retiring and the number of employee eligible for mentorship by title.
+
 [Summary Data] https://github.com/BBBrian1124/Pewlett-Hackard-Analysis/blob/main/Challenge/Data/AQ_title_discrepancy.csv
+
 ## How many roles will need to be filled as the "silver tsunami" begins to make an impact?
 * A look at the "Summary Data' from the above queries show how many employees will be retiring per title. 
 ## Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees?
@@ -38,6 +41,8 @@ UofT Data Analytics Boot Camp Module 7 - SQL
 ---
 # Appendix:
 [Challenge Repository] https://github.com/BBBrian1124/Pewlett-Hackard-Analysis/tree/main/Challenge
+
 [SQL Queries] https://github.com/BBBrian1124/Pewlett-Hackard-Analysis/tree/main/Challenge/Queries
+
 [Exported Data Files] https://github.com/BBBrian1124/Pewlett-Hackard-Analysis/tree/main/Challenge/Data
 
