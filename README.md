@@ -1,6 +1,6 @@
 # Pewlett-Hackard-Analysis
 UofT Data Analytics Boot Camp Module 7 - SQL
-
+---
 # Overview of the analysis: 
 ![ERD Diagram] https://github.com/BBBrian1124/Pewlett-Hackard-Analysis/blob/main/Challenge/EmployeeDB.png
 *  We have been provided various CSV files that contains employee data and we will use SQL and pgAdmin to import those files, create tables and perform queries to obtain the information needed. These files contain employee information such as their employee no./IDs, names, job title, department, along with their start and end dates. We have been assigned the task to determine the number of retiring employees per title, and identify employees who are eligible to participate in a mentorship program. 
@@ -26,7 +26,7 @@ UofT Data Analytics Boot Camp Module 7 - SQL
 * In order to find the eligible employees, we will select the columns we want from employee, department employee and titles table, then join them. We will filter it by their birth date and end date as per the eligibility criteria which will return a list of employees who are eligible for this mentorship program.
 
 [Mentorship Eligible Data] https://github.com/BBBrian1124/Pewlett-Hackard-Analysis/blob/main/Challenge/Data/D2_mentorship_eligibilty.csv
-
+---
 # Summary
 [Discrepancy Query] https://github.com/BBBrian1124/Pewlett-Hackard-Analysis/blob/main/Challenge/Queries/Individual%20Queries/AQ_Additional%20Queries.sql
 * We can create more SQL queries to count and group the number of employees eligible for the mentorship program by title. We can then join this table/information with the 'retiring titles data' to see the number of employees retiring and the number of employee eligible for mentorship by title.
@@ -35,7 +35,7 @@ UofT Data Analytics Boot Camp Module 7 - SQL
 * A look at the "Summary Data' from the above queries show how many employees will be retiring per title. 
 ## Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees?
 * By merging in the mentorship eligible employees table, we can see that we have significantly more 'retiring employees' than 'mentorship eligible employees'. While there are enough 'retiring employees' to mentor other employees, we don't seem to have enough resources internally to fulfill the roles of those 'retiring employees' and may need to look externally. 
-
+---
 # Appendix:
 [Challenge Repository] https://github.com/BBBrian1124/Pewlett-Hackard-Analysis/tree/main/Challenge
 [SQL Queries] https://github.com/BBBrian1124/Pewlett-Hackard-Analysis/tree/main/Challenge/Queries
